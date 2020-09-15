@@ -8,10 +8,11 @@ In the project directory, you can run:
 
 ##### `npm install -g firebase-tools`
 
-// Modify firebase-connector.js and configure firebase
+Modify firebase-connector.js and configure firebase
 
 ##### `npm start`
 
+For deployment
 ##### `firebase login`
 ##### `firebase init`
 ##### `npm run build && firebase deploy`
