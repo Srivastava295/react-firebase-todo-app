@@ -24,11 +24,27 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>The Coding Fish</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" />
+    <style>
+      #root { position: absolute;
+        top:0;
+        left: 0;
+        background: #fafafa;
+        width: 100%;
+        min-height: 100%;
+        z-index: 1000;
+        display: flex;}
+      .preloader-init { position: absolute; top: calc(50% - 65px); left: calc(50% - 65px) }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root">
+      <img src="images/spinner.gif" class="preloader-init" alt="spinner" />
+    </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
