@@ -30,5 +30,4 @@ firebase.json
 package-lock.json
 src/firebase.js
 src/App.test.tsx
-src/serviceWorker.ts
 src/setupTests.ts
